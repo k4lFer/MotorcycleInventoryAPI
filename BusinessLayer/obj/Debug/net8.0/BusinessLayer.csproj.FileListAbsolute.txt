@@ -51,3 +51,4 @@
 /run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.pdb
 /run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/ref/BusinessLayer.dll
 /run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.CopyComplete
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.sourcelink.json

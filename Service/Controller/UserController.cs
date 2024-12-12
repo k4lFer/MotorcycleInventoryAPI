@@ -1,5 +1,6 @@
 using BusinessLayer.Business.User;
 using BusinessLayer.ExternalApi;
+using DataTransferLayer.Object;
 using DataTransferLayer.OtherObject;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -97,7 +98,25 @@ namespace Service.Controller
             (_so.message, _so.body.dto) = _business.getByDocumentNumber(documentNumber);
             return _so;
         }
+
+        [Authorize(Roles = "Admin, Manager")]
+        [HttpGet]
+        [Route("[action]")]
+        public ActionResult GetAllByDocument(string documentNumber)
+        {
+            (DtoMessage message, List<string> listDocuments) = _business.GetAllByDocumentNumber(documentNumber);
+            
+            if (message.type == "success")
+                return Ok(new { Message = message, Documents = listDocuments });
+    
+            if (message.type == "warning")
+                return Conflict(new { Message = message, Documents = listDocuments });
+            
+            return StatusCode(500, new { Message = "Ocurrió un error inesperado." });
+        }
+
         
+        /*
         [Authorize(Roles = "Admin, Manager")]
         [HttpDelete]
         [Route("[action]")]
@@ -127,7 +146,7 @@ namespace Service.Controller
             }
             return BadRequest(_so.message);
         }
-        
+        */
         [Authorize(Roles="Manager,Admin")]
         [HttpGet]
         [Route("[action]")]

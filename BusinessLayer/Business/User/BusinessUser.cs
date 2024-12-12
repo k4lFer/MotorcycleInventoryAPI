@@ -180,6 +180,20 @@ namespace BusinessLayer.Business.User
             _message.Warning();
             return (_message, listUser);
         }
+
+        public (DtoMessage, List<string>) GetAllByDocumentNumber(string documentNumber)
+        {
+            List<string> listDocuments = qUser.getAllByDocumentNumber(documentNumber);
+            if (listDocuments.Count > 0)
+            {
+                _message.Success();
+                return (_message, listDocuments);
+            }
+            _message.AddMessage("Documento no encontrado, el usuario no está registrado.");
+            _message.Warning();
+            return (_message, listDocuments);
+            
+        }
         
     }
 }

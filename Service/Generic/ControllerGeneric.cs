@@ -8,17 +8,25 @@ namespace Service.Generic
     [Authorize]
     [ApiController]
     [Route("api/v1/[controller]")]
-    public class ControllerGeneric<Bu, So> : ControllerBase
+    public class ControllerGeneric<Bu, So> : ControllerBase 
+        where So : new() 
+        where Bu : new()
     {
         protected Bu _business;
         public So _so;
 
+        
         public ControllerGeneric()
         {
             _business = (Bu)Activator.CreateInstance(typeof(Bu), Array.Empty<object>());
             _so = (So)Activator.CreateInstance(typeof(So), Array.Empty<object>());
         }
         
+        /*public ControllerGeneric()
+        {
+            _business = new Bu();
+            _so = new So();
+        }*/
         protected DtoMessage ValidatePartDto(object dto, List<string> listField)
         {
             DtoMessage dtoMessage = new DtoMessage();

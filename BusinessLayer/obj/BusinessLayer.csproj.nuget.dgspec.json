@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/BusinessLayer.csproj": {}
+    "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/BusinessLayer.csproj": {
+    "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/BusinessLayer.csproj",
+        "projectUniqueName": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/BusinessLayer.csproj",
-        "packagesPath": "/home/k4lfer/.nuget/packages/",
-        "outputPath": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/",
+        "projectPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\kalfe\\.nuget\\packages\\",
+        "outputPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/k4lfer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kalfe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/DataAccessLayer.csproj": {
-                "projectPath": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/DataAccessLayer.csproj"
+              "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/DataTransferLayer.csproj": {
-                "projectPath": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/DataTransferLayer.csproj"
+              "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj": {
+                "projectPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj"
               }
             }
           }
@@ -39,7 +45,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -82,34 +94,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/DataAccessLayer.csproj": {
+    "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/DataAccessLayer.csproj",
-        "packagesPath": "/home/k4lfer/.nuget/packages/",
-        "outputPath": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/",
+        "projectPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\kalfe\\.nuget\\packages\\",
+        "outputPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/k4lfer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kalfe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/DataTransferLayer.csproj": {
-                "projectPath": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/DataTransferLayer.csproj"
+              "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj": {
+                "projectPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj"
               }
             }
           }
@@ -118,7 +136,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -149,26 +173,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/DataTransferLayer.csproj": {
+    "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/DataTransferLayer.csproj",
+        "projectUniqueName": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj",
         "projectName": "DataTransferLayer",
-        "projectPath": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/DataTransferLayer.csproj",
-        "packagesPath": "/home/k4lfer/.nuget/packages/",
-        "outputPath": "/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/",
+        "projectPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj",
+        "packagesPath": "C:\\Users\\kalfe\\.nuget\\packages\\",
+        "outputPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\DataTransferLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/k4lfer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kalfe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -181,7 +211,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -202,7 +238,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

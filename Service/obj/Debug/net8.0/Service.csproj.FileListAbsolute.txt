@@ -190,3 +190,4 @@
 /run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/ref/Service.dll
 /run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.csproj.CopyComplete
 /run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Resend.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.sourcelink.json

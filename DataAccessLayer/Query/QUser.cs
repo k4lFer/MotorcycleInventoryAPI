@@ -24,6 +24,16 @@ namespace DataAccessLayer.Query
             User? user = dbc.Users.FirstOrDefault(w => w.documentNumber == documentNumber);
             return Automapper.mapper.Map<DtoUser>(user);
         }
+
+        public List<string> getAllByDocumentNumber(string documentNumber)
+        {
+            using DataBaseContext dbc = new();
+            var documents = dbc.Users
+                .Where(user => user.documentNumber.Contains(documentNumber))
+                .Select(user => user.documentNumber)
+                .ToList();
+            return documents;
+        }
         
         public int Update(DtoUser dto){
             using DataBaseContext dbc = new();

@@ -1,12 +1,21 @@
 using System.Transactions;
 using BusinessLayer.Generic;
+using BusinessLayer.Signals;
 using DataTransferLayer.Object;
 using DataTransferLayer.OtherObject;
+using Microsoft.AspNetCore.SignalR;
 
 namespace BusinessLayer.Business.Sale
 {
     public partial class BusinessSales : BusinessGeneric
     {
+        //private readonly IHubContext<StockAlertHub> _hubContext;
+       // public BusinessSales(){ }
+        /*private BusinessSales(IHubContext<StockAlertHub> hubContext)
+        {
+            _hubContext = hubContext;
+        }*/
+        
         public (DtoMessage, List<DtoSales>) GetAllSales()
         {
             List<DtoSales> listSales = qSales.getAll();
@@ -108,6 +117,7 @@ namespace BusinessLayer.Business.Sale
             }
             
             qmotorcycle.update(dtoMotorcycle);
+           // CheckAndEmitAlerts(dtoMotorcycle).Wait();
             
             dtoSales.totalPrice += dtoSalesDetails.subTotal;
             dtoSales.quantity += dtoSalesDetails.quantity;
@@ -129,6 +139,17 @@ namespace BusinessLayer.Business.Sale
             
             qSalesService.create(dtoSalesService);
         }
+       /* private async Task CheckAndEmitAlerts(DtoMotorcycle motorcycle)
+        {
+            if (motorcycle.quantity == 0)
+            {
+                await _hubContext.Clients.All.SendAsync("ReceiveAlert", $"ALERTA: La motocicleta '{motorcycle.name}' está sin stock.");
+            }
+            else if (motorcycle.quantity <= 2)
+            {
+                await _hubContext.Clients.All.SendAsync("ReceiveAlert", $"ALERTA: La motocicleta '{motorcycle.name}' tiene un stock crítico: {motorcycle.quantity} unidad(es).");
+            }
+        }*/
         
     }
 }

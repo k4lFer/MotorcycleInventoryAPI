@@ -60,3 +60,4 @@ D:/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinvent
 D:/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Debug/net8.0/refint/DataAccessLayer.dll
 D:/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.pdb
 D:/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Debug/net8.0/ref/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.sourcelink.json

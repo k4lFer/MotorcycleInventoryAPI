@@ -1,12 +1,22 @@
 using System.Transactions;
 using BusinessLayer.Generic;
+using BusinessLayer.Signals;
 using DataTransferLayer.Object;
 using DataTransferLayer.OtherObject;
+using Microsoft.AspNetCore.SignalR;
 
 namespace BusinessLayer.Business.Motorcycle
 {
     public partial class BusinessMotorcycle : BusinessGeneric
     {
+        //private readonly IHubContext<StockAlertHub> _hubContext;
+        /*public BusinessMotorcycle(IHubContext<StockAlertHub> hubContext)
+        {
+            _hubContext = hubContext;
+        }*/
+
+        //public BusinessMotorcycle() { }
+
         public DtoMessage registerMotorcycle(DtoMotorcycle dto)
         {
             using TransactionScope transactionScope = new();
@@ -100,6 +110,7 @@ namespace BusinessLayer.Business.Motorcycle
                 {
                     dtoMotorcycle.brandId = null;
                     dtoMotorcycle.typeId = null;
+                   // CheckAndEmitAlerts(dtoMotorcycle).Wait();
                 }
                 _message.Success();
                 return (_message, listMotorcycles);
@@ -113,9 +124,23 @@ namespace BusinessLayer.Business.Motorcycle
             DtoMotorcycle? dtoMotorcycle = qMotorcycle.getById(id);
             dtoMotorcycle.brandId = null;
             dtoMotorcycle.typeId = null;
+            //CheckAndEmitAlerts(dtoMotorcycle).Wait();
             _message.Success();
             return (_message, dtoMotorcycle);
         }
+        
+        /*private async Task CheckAndEmitAlerts(DtoMotorcycle motorcycle)
+        {
+            if (motorcycle.quantity == 0)
+            {
+                await _hubContext.Clients.All.SendAsync("ReceiveAlert", $"ALERTA: La motocicleta '{motorcycle.name}' está sin stock.");
+            }
+            else if (motorcycle.quantity <= 2)
+            {
+                await _hubContext.Clients.All.SendAsync("ReceiveAlert", $"ALERTA: La motocicleta '{motorcycle.name}' tiene un stock crítico: {motorcycle.quantity} unidad(es).");
+            }
+        }*/
+
     }
 }
 
