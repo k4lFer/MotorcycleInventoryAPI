@@ -1,0 +1,192 @@
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/appsettings.Development.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/appsettings.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.deps.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.runtimeconfig.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.pdb
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/AutoMapper.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/MySqlConnector.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Newtonsoft.Json.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Scrutor.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/DataTransferLayer.pdb
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/BusinessLayer.pdb
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/DataAccessLayer.pdb
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.csproj.AssemblyReference.cache
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.AssemblyInfoInputs.cache
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.AssemblyInfo.cs
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.csproj.CoreCompileInputs.cache
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.MvcApplicationPartsAssemblyInfo.cs
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.MvcApplicationPartsAssemblyInfo.cache
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.sourcelink.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets.build.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets.development.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.Service.Microsoft.AspNetCore.StaticWebAssets.props
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.build.Service.props
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Service.props
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Service.props
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets.pack.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/scopedcss/bundle/Service.styles.css
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/refint/Service.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.pdb
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.genruntimeconfig.cache
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/ref/Service.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/CloudinaryDotNet.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.csproj.Up2Date
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/SixLabors.ImageSharp.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.staticwebassets.endpoints.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.Service.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.staticwebassets.endpoints.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/appsettings.Development.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/appsettings.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.deps.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.runtimeconfig.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Service.pdb
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/AutoMapper.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/CloudinaryDotNet.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/MySqlConnector.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Newtonsoft.Json.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Scrutor.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/SixLabors.ImageSharp.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/DataTransferLayer.pdb
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/BusinessLayer.pdb
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/bin/Debug/net8.0/DataAccessLayer.pdb
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.csproj.AssemblyReference.cache
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.AssemblyInfoInputs.cache
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.AssemblyInfo.cs
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.csproj.CoreCompileInputs.cache
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.MvcApplicationPartsAssemblyInfo.cs
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.MvcApplicationPartsAssemblyInfo.cache
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.sourcelink.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/scopedcss/bundle/Service.styles.css
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets.build.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets.development.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.Service.Microsoft.AspNetCore.StaticWebAssets.props
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.Service.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.build.Service.props
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Service.props
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Service.props
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/staticwebassets.pack.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.csproj.Up2Date
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/refint/Service.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.pdb
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/Service.genruntimeconfig.cache
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/Service/obj/Debug/net8.0/ref/Service.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/appsettings.Development.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/appsettings.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Service
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Service.deps.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Service.runtimeconfig.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Service.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Service.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/AutoMapper.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/CloudinaryDotNet.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/MySqlConnector.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Newtonsoft.Json.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Scrutor.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/SixLabors.ImageSharp.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/DataTransferLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/BusinessLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/DataAccessLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.csproj.AssemblyReference.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.AssemblyInfoInputs.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.AssemblyInfo.cs
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.csproj.CoreCompileInputs.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.MvcApplicationPartsAssemblyInfo.cs
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.MvcApplicationPartsAssemblyInfo.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/scopedcss/bundle/Service.styles.css
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/staticwebassets.build.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/staticwebassets.development.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/staticwebassets/msbuild.Service.Microsoft.AspNetCore.StaticWebAssets.props
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/staticwebassets/msbuild.build.Service.props
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Service.props
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Service.props
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/staticwebassets.pack.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/refint/Service.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.genruntimeconfig.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/ref/Service.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/obj/Debug/net8.0/Service.csproj.CopyComplete
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/Service/bin/Debug/net8.0/Resend.dll

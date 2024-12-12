@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\droppiorg\\apiforumcivil\\appforum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\droppiorg\\apiforumcivil\\appforum\\businesslayer\\externalapi\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\externalapi\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\droppiorg\\apiforumcivil\\appforum\\businesslayer\\business\\owner\\businessowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\business\\owner\\businessowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 46,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CloudinaryService.cs",
+              "DocumentMoniker": "D:\\droppiorg\\apiforumcivil\\appforum\\BusinessLayer\\ExternalApi\\CloudinaryService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\ExternalApi\\CloudinaryService.cs",
+              "ToolTip": "D:\\droppiorg\\apiforumcivil\\appforum\\BusinessLayer\\ExternalApi\\CloudinaryService.cs",
+              "RelativeToolTip": "BusinessLayer\\ExternalApi\\CloudinaryService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T00:38:06.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BusinessOwner.cs",
+              "DocumentMoniker": "D:\\droppiorg\\apiforumcivil\\appforum\\BusinessLayer\\Business\\Owner\\BusinessOwner.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Business\\Owner\\BusinessOwner.cs",
+              "ToolTip": "D:\\droppiorg\\apiforumcivil\\appforum\\BusinessLayer\\Business\\Owner\\BusinessOwner.cs",
+              "RelativeToolTip": "BusinessLayer\\Business\\Owner\\BusinessOwner.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswHIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T00:36:49.529Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

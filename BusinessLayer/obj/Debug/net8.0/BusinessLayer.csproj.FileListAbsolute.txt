@@ -1,0 +1,53 @@
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/BusinessLayer.deps.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/BusinessLayer.pdb
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/DataAccessLayer.pdb
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/DataTransferLayer.pdb
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.AssemblyReference.cache
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfoInputs.cache
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfo.cs
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.CoreCompileInputs.cache
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.sourcelink.json
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/refint/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.pdb
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/ref/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/Business.EA331CBA.Up2Date
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/BusinessLayer.deps.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/BusinessLayer.pdb
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/DataAccessLayer.pdb
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/bin/Debug/net8.0/DataTransferLayer.pdb
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.AssemblyReference.cache
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfoInputs.cache
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfo.cs
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.CoreCompileInputs.cache
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.sourcelink.json
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/Business.EA331CBA.Up2Date
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/refint/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/BusinessLayer.pdb
+/run/media/k4lfer/Respaldo/droppiorg/apiforumcivil/appforum/BusinessLayer/obj/Debug/net8.0/ref/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/bin/Debug/net8.0/BusinessLayer.deps.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/bin/Debug/net8.0/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/bin/Debug/net8.0/BusinessLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/bin/Debug/net8.0/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/bin/Debug/net8.0/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/bin/Debug/net8.0/DataAccessLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/bin/Debug/net8.0/DataTransferLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.AssemblyReference.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfoInputs.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfo.cs
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.CoreCompileInputs.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/refint/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/ref/BusinessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.CopyComplete

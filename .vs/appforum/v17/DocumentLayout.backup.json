@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\droppiorg\\apiforumcivil\\appforum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\droppiorg\\apiforumcivil\\appforum\\businesslayer\\business\\question\\businessquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\business\\question\\businessquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|d:\\droppiorg\\apiforumcivil\\appforum\\dataaccesslayer\\query\\qimagequestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\query\\qimagequestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|d:\\droppiorg\\apiforumcivil\\appforum\\dataaccesslayer\\entity\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entity\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\droppiorg\\apiforumcivil\\appforum\\businesslayer\\externalapi\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\externalapi\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 46,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CloudinaryService.cs",
+              "DocumentMoniker": "D:\\droppiorg\\apiforumcivil\\appforum\\BusinessLayer\\ExternalApi\\CloudinaryService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\ExternalApi\\CloudinaryService.cs",
+              "ToolTip": "D:\\droppiorg\\apiforumcivil\\appforum\\BusinessLayer\\ExternalApi\\CloudinaryService.cs",
+              "RelativeToolTip": "BusinessLayer\\ExternalApi\\CloudinaryService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswDAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:39:51.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QImageQuestion.cs",
+              "DocumentMoniker": "D:\\droppiorg\\apiforumcivil\\appforum\\DataAccessLayer\\Query\\QImageQuestion.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Query\\QImageQuestion.cs",
+              "ToolTip": "D:\\droppiorg\\apiforumcivil\\appforum\\DataAccessLayer\\Query\\QImageQuestion.cs",
+              "RelativeToolTip": "DataAccessLayer\\Query\\QImageQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:30:51.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\droppiorg\\apiforumcivil\\appforum\\DataAccessLayer\\Entity\\Question.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Entity\\Question.cs",
+              "ToolTip": "D:\\droppiorg\\apiforumcivil\\appforum\\DataAccessLayer\\Entity\\Question.cs",
+              "RelativeToolTip": "DataAccessLayer\\Entity\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:30:28.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BusinessQuestion.cs",
+              "DocumentMoniker": "D:\\droppiorg\\apiforumcivil\\appforum\\BusinessLayer\\Business\\Question\\BusinessQuestion.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Business\\Question\\BusinessQuestion.cs",
+              "ToolTip": "D:\\droppiorg\\apiforumcivil\\appforum\\BusinessLayer\\Business\\Question\\BusinessQuestion.cs",
+              "RelativeToolTip": "BusinessLayer\\Business\\Question\\BusinessQuestion.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAwwIMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:30:05.566Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
