@@ -112,6 +112,15 @@ namespace Service.Controller
             (_so.message, _so.body.dto) = _business.GetMotorcycleId(id);
             return _so;
         }
+
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("[action]")]
+        public ActionResult<SoMotorcycle> GetMotorcyclesByVin(string vin)
+        {
+            (_so.message, _so.body.dto) = _business.GetMotorcycleVin(vin);
+            return _so;
+        }
     }
 }
 

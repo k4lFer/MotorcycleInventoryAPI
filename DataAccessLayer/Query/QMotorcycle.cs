@@ -39,6 +39,16 @@ namespace DataAccessLayer.Query
                 .FirstOrDefault(m => m.id == id);
             return Automapper.mapper.Map<DtoMotorcycle>(motorcycle);
         }
+
+        public DtoMotorcycle getByVin(string vin)
+        {
+            using DataBaseContext dbc = new();
+            Motorcycle? motorcycle = dbc.Motorcyles
+                .Include(m => m.ParentBrands)
+                .Include(m => m.ParentTypes)
+                .FirstOrDefault(m => m.vin == vin);
+            return Automapper.mapper.Map<DtoMotorcycle>(motorcycle);
+        }
         
         public async Task<DtoMotorcycle> getByIdAsync(Guid id)
         {

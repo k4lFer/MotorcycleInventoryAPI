@@ -14,15 +14,13 @@ CREATE TABLE `owners` (
   `ruc` VARCHAR(255) UNIQUE,
   `address` VARCHAR(100) NOT NULL,
   `phoneNumber` VARCHAR(30) UNIQUE NOT NULL,
-  `role` ENUM('Manager', 'Admin') NOT NULL,
+  `role` ENUM('Admin', 'Manager') NOT NULL,
   `status` tinyint(1) NOT NULL,
   `profilePictureUrl` TEXT NULL,
   `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `createdBy` CHAR(36),
   `updatedBy` CHAR(36),
---  `storeId` CHAR(36),
- -- FOREIGN KEY (`storeId`) REFERENCES `stores`(`id`)
 ) ENGINE=InnoDB;
 
 CREATE TABLE `users` (
@@ -49,7 +47,6 @@ CREATE TABLE `brands` (
     `id` CHAR(36) PRIMARY KEY NOT NULL,
     `ruc` VARCHAR(255) NOT NULL,
     `name` VARCHAR(255) NOT NULL,
-    --`contact` VARCHAR(255) NOT NULL,
     `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
@@ -59,6 +56,7 @@ CREATE TABLE `motorcycles` (
     `typeId` CHAR(36) NOT NULL,
     `brandId` CHAR(36) NOT NULL, 
     `name` VARCHAR(255) NOT NULL,
+    `vin` VARCHAR(255) NOT NULL,
     `displacement` VARCHAR(255) NOT NULL, 
     `price` DECIMAL(10, 2) NOT NULL,
     `quantity` INT NOT NULL,
@@ -81,7 +79,6 @@ CREATE TABLE `services` (
 
 CREATE TABLE `sales` (
     `id` CHAR(36) PRIMARY KEY NOT NULL,
-    --`storeId` CHAR(36) NOT NULL,
     `userId` CHAR(36) NOT NULL,
     `ownerId` CHAR(36) NOT NULL,
     `quantity` INT NOT NULL,
@@ -89,7 +86,6 @@ CREATE TABLE `sales` (
     `date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (`userId`) REFERENCES `users`(`id`),
     FOREIGN KEY (`ownerId`) REFERENCES `owners`(`id`),
-   -- FOREIGN KEY (`storeId`) REFERENCES `stores`(`id`)
 ) ENGINE=InnoDB;
 
 CREATE TABLE `sales_services` (
@@ -113,30 +109,6 @@ CREATE TABLE `sales_details` (
     FOREIGN KEY (`saleId`) REFERENCES `sales`(`id`),
     FOREIGN KEY (`motorcycleId`) REFERENCES `motorcycles`(`id`)
 ) ENGINE=InnoDB;
-/*
--- Tabla para las tiendas
-CREATE TABLE `stores` (
-    `id` CHAR(36) PRIMARY KEY NOT NULL,
-    `name` VARCHAR(255) NOT NULL,
-    `location` VARCHAR(255) NOT NULL,
-    `phone` VARCHAR(50),
-    `email` VARCHAR(100),
-    `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
-
-
--- Relación de stock por tienda
-CREATE TABLE `store_stock` (
-    `id` CHAR(36) PRIMARY KEY NOT NULL,
-    `storeId` CHAR(36) NOT NULL,
-    `motorcycleId` CHAR(36) NOT NULL,
-    `quantity` INT NOT NULL,
-    FOREIGN KEY (`storeId`) REFERENCES `stores`(`id`),
-    FOREIGN KEY (`motorcycleId`) REFERENCES `motorcycles`(`id`)
-) ENGINE=InnoDB;
-
-*/
 
 INSERT INTO `owners` (`id`,`username`,`password`,`firstName`,`lastName`,`email`,`dni`,`ruc`,`address`,`phoneNumber`,`role`,`status`,`createdAt`,`updatedAt`,`createdBy`,`updatedBy`) VALUES (
 	'7b775e32-8b78-4352-ba0e-b13983ec69a0',
@@ -179,12 +151,9 @@ VALUES
 
 
 -- Insertando datos en la tabla `motorcycles`
-
 INSERT INTO `motorcycles` (`id`, `typeId`, `brandId`, `name`, `displacement`, `price`, `quantity`, `status`, `createdAt`, `updatedAt`)
 VALUES
 ('1a2b3c4d-0003-0000-0000-000000000001', '1a2b3c4d-0001-0000-0000-000000000001', '1a2b3c4d-0002-0000-0000-000000000001', 'YZF R1', '998 cc', 20000.00, 5, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
 ('1a2b3c4d-0003-0000-0000-000000000002', '1a2b3c4d-0001-0000-0000-000000000002', '1a2b3c4d-0002-0000-0000-000000000002', 'Ninja ZX-6R', '636 cc', 17000.00, 3, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
 ('1a2b3c4d-0003-0000-0000-000000000003', '1a2b3c4d-0001-0000-0000-000000000003', '1a2b3c4d-0002-0000-0000-000000000003', 'CBR600RR', '599 cc', 15000.00, 4, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
 ('1a2b3c4d-0003-0000-0000-000000000004', '1a2b3c4d-0001-0000-0000-000000000004', '1a2b3c4d-0002-0000-0000-000000000004', 'V-Strom 650', '645 cc', 12000.00, 6, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
-
-select * from sales s where s.id like"93318e48-a18b-4116-a314-c7823d85621f"
