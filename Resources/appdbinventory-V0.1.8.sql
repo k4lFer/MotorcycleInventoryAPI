@@ -121,7 +121,7 @@ INSERT INTO `owners` (`id`,`username`,`password`,`firstName`,`lastName`,`email`,
 	'zRhL4jFlWiAXF1dbsdEk6w==',
 	'Abancay-Apurímac',
 	'cwwyWVKxtTegG1PZAWcPYg==', 
-	'Manager', 1, '2024-10-17 18:17:28.000', '2024-10-17 18:17:28.000', NULL, NULL);
+	'Admin', 1, '2024-10-17 18:17:28.000', '2024-10-17 18:17:28.000', NULL, NULL);
 
 -- CREDENCIALS ADMIN
   -- username: k4lfer
