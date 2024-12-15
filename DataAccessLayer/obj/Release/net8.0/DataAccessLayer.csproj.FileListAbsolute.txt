@@ -1,0 +1,16 @@
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/bin/Release/net8.0/DataAccessLayer.deps.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/bin/Release/net8.0/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/bin/Release/net8.0/DataAccessLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/bin/Release/net8.0/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/bin/Release/net8.0/DataTransferLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/DataAccessLayer.csproj.AssemblyReference.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/DataAccessLayer.AssemblyInfoInputs.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/DataAccessLayer.AssemblyInfo.cs
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/DataAccessLayer.csproj.CoreCompileInputs.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/DataAccessLayer.sourcelink.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/DataAccessLayer.csproj.CopyComplete
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/refint/DataAccessLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/DataAccessLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataAccessLayer/obj/Release/net8.0/ref/DataAccessLayer.dll

@@ -1,0 +1,12 @@
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/bin/Release/net8.0/DataTransferLayer.deps.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/bin/Release/net8.0/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/bin/Release/net8.0/DataTransferLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/Release/net8.0/DataTransferLayer.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/Release/net8.0/DataTransferLayer.AssemblyInfoInputs.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/Release/net8.0/DataTransferLayer.AssemblyInfo.cs
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/Release/net8.0/DataTransferLayer.csproj.CoreCompileInputs.cache
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/Release/net8.0/DataTransferLayer.sourcelink.json
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/Release/net8.0/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/Release/net8.0/refint/DataTransferLayer.dll
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/Release/net8.0/DataTransferLayer.pdb
+/run/media/k4lfer/Respaldo/Respaldo/Escritorio/Semestre 2024-2/Computacion en la Nube/Proyecto/appinventory/DataTransferLayer/obj/Release/net8.0/ref/DataTransferLayer.dll

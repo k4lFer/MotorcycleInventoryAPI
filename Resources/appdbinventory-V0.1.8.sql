@@ -20,7 +20,7 @@ CREATE TABLE `owners` (
   `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `createdBy` CHAR(36),
-  `updatedBy` CHAR(36),
+  `updatedBy` CHAR(36)
 ) ENGINE=InnoDB;
 
 CREATE TABLE `users` (
@@ -72,7 +72,6 @@ CREATE TABLE `services` (
     `name` VARCHAR(255) NOT NULL,
     `description` TEXT NOT NULL,
     `price` DECIMAL(10,2) NOT NULL,
-    `status` ENUM('available', 'not_available') NOT NULL,
     `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
@@ -85,7 +84,7 @@ CREATE TABLE `sales` (
     `totalPrice` DECIMAL(10, 2) NOT NULL,
     `date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (`userId`) REFERENCES `users`(`id`),
-    FOREIGN KEY (`ownerId`) REFERENCES `owners`(`id`),
+    FOREIGN KEY (`ownerId`) REFERENCES `owners`(`id`)
 ) ENGINE=InnoDB;
 
 CREATE TABLE `sales_services` (

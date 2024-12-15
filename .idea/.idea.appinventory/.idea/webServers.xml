@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="260068ef-ec8a-4485-ac17-d83bd89f2dd7" name="deploy-v0.0.1" url="http://site14412.siteasp.net">
+        <fileTransfer rootFolder="/wwwroot" host="site14412.siteasp.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

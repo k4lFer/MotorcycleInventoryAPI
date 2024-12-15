@@ -19,7 +19,11 @@
         {
             public static void Main(string[] args)
             {
-                WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+                //WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+                WebApplicationBuilder builder = WebApplication.CreateBuilder(new WebApplicationOptions
+                {
+                    EnvironmentName = Environments.Production
+                });
 
                 #region appsettings
                 AppSettings.Init();

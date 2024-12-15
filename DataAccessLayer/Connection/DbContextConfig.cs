@@ -14,7 +14,7 @@ namespace DataAccessLayer.Connection
                 entity.Property(e => e.role)
                     .IsRequired()
                     .HasConversion(v => v.ToString(), v => (Hierarchy)Enum.Parse(typeof(Hierarchy), v))
-                    .HasColumnType("enum('Manager','Admin')");
+                    .HasColumnType("enum('Admin','Manager')");
 
                 entity.HasMany(e => e.ChildSales)
                     .WithOne(e => e.ParentOwner)
