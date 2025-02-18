@@ -782,7 +782,10 @@
           "Swashbuckle.AspNetCore": "7.0.0"
         },
         "runtime": {
-          "BusinessLayer.dll": {}
+          "BusinessLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DataAccessLayer/1.0.0": {
@@ -792,12 +795,18 @@
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
-          "DataAccessLayer.dll": {}
+          "DataAccessLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DataTransferLayer/1.0.0": {
         "runtime": {
-          "DataTransferLayer.dll": {}
+          "DataTransferLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

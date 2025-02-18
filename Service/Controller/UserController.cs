@@ -1,6 +1,7 @@
 using BusinessLayer.Business.User;
 using BusinessLayer.ExternalApi;
 using DataTransferLayer.Object;
+using DataTransferLayer.Object.ResponseAPIsNet;
 using DataTransferLayer.OtherObject;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,13 +13,10 @@ namespace Service.Controller
 {
     public class UserController : ControllerGeneric<BusinessUser, SoUser>
     {
-        private readonly ApisNetPe _apisNetPe;
-
-        public UserController(ApisNetPe apisNetPe)
+        public UserController(IServiceProvider serviceProvider) : base(serviceProvider)
         {
-            _apisNetPe = apisNetPe;
         }
-        
+
         [Authorize(Roles = "Admin, Manager")]
         [HttpPost]
         [Route("[action]")]
@@ -147,7 +145,8 @@ namespace Service.Controller
             return BadRequest(_so.message);
         }
         */
-        [Authorize(Roles="Manager,Admin")]
+       // [Authorize(Roles="Manager,Admin")]
+        [AllowAnonymous]
         [HttpGet]
         [Route("[action]")]
         public ActionResult<SoUser> GetAll()
@@ -156,62 +155,21 @@ namespace Service.Controller
             return _so;
         }
 
-        [Authorize(Roles = "Manager,Admin")]
+        [AllowAnonymous]
+        //[Authorize(Roles = "Manager,Admin")]
         [HttpGet]
         [Route("[action]")]
         public async Task<IActionResult> CheckByDni(string dni)
         {
-            try
-            {
-                string responseBody = await _apisNetPe.CheckDniAsync(dni);
-                
-                if (string.IsNullOrEmpty(responseBody))
-                {
-                    _so.message.ListMessage.Add("Error al consultar DNI.");
-                    _so.message.type = "error";
-                    return StatusCode(500, _so.message);
-                }
-                
-                return Content(responseBody, "application/json");
-            }
-            catch (Exception ex)
-            {
-                string errorMessage = ex.Message;
-                if (ex.InnerException != null) 
-                    errorMessage += " -> " + ex.InnerException.Message;
+            (DtoMessage message, ResponseDni? responseDni) = await _business.CheckDniAsync(dni);
 
-                _so.message.ListMessage.Add(errorMessage);
-                _so.message.Exception();
-                return StatusCode(500, _so.message);
-            }
-        }
-
-        [Authorize(Roles = "Manager,Admin")]
-        [HttpGet]
-        [Route("[action]")]
-        public async Task<IActionResult> CheckByRuc(string ruc)
-        {
-            try
-            {
-                string responseBody = await _apisNetPe.CheckRucAsync(ruc);
-
-                if (string.IsNullOrEmpty(responseBody))
-                {
-                    _so.message.ListMessage.Add("Error al consultar Ruc.");
-                    _so.message.type = "error";
-                    return StatusCode(500, _so.message);
-                }
-
-                return Content(responseBody, "application/json");
-            }
-            catch (Exception ex)
-            {
-                string errorMessage = ex.Message;
-                if (ex.InnerException != null) errorMessage += " -> " + ex.InnerException.Message;
-                _so.message.ListMessage.Add(errorMessage);
-                _so.message.Exception();
-                return StatusCode(500, _so.message);
-            }
+            if (message.type == "success")
+                return Ok(new { Message = message, Dni = responseDni });
+            
+            if (message.type == "warning")
+                return Conflict(new { Message = message, Dni = responseDni });
+            
+            return StatusCode(500, new { Message = "Ocurrio un error inesperado." });
         }
         
     }

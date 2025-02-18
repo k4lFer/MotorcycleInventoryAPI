@@ -10,14 +10,12 @@ namespace Service.Controller
 {
     public class BrandController : ControllerGeneric<BusinessBrand, SoBrand>
     {
-        private readonly ApisNetPe _apisNetPe;
-
-        public BrandController(ApisNetPe apisNetPe)
+        public BrandController(IServiceProvider serviceProvider) : base(serviceProvider)
         {
-            _apisNetPe = apisNetPe;
         }
-        
+
         //[Authorize(Roles = "Admin, Manager")]
+
         [AllowAnonymous]
         [HttpPost]
         [Route("[action]")]
@@ -28,7 +26,7 @@ namespace Service.Controller
                 _so.message = ValidatePartDto(so.body.dto, new List<string>()
                 {
                     nameof(so.body.dto.name),
-                    nameof(so.body.dto.ruc),
+                   // nameof(so.body.dto.ruc),
                 });
                 if(_so.message.ExistsMessage()) return BadRequest(_so.message);
 
@@ -58,7 +56,7 @@ namespace Service.Controller
                 _so.message = ValidatePartDto(so.body.dto, new List<string>()
                 {
                     nameof(so.body.dto.name),
-                    nameof(so.body.dto.ruc),
+                   // nameof(so.body.dto.ruc),
                 });
                 if(_so.message.ExistsMessage()) return BadRequest(_so.message);
 
@@ -97,34 +95,7 @@ namespace Service.Controller
             return _so;
         }
         
-        //[Authorize(Roles = "Admin, Manager")]
-        [AllowAnonymous]
-        [HttpGet]
-        [Route("[action]")]
-        public async Task<IActionResult> CheckByRuc(string ruc)
-        {
-            try
-            {
-                string responseBody = await _apisNetPe.CheckRucAsync(ruc);
 
-                if (string.IsNullOrEmpty(responseBody))
-                {
-                    _so.message.ListMessage.Add("Error al consultar Ruc.");
-                    _so.message.type = "error";
-                    return StatusCode(500, _so.message);
-                }
-
-                return Content(responseBody, "application/json");
-            }
-            catch (Exception ex)
-            {
-                string errorMessage = ex.Message;
-                if (ex.InnerException != null) errorMessage += " -> " + ex.InnerException.Message;
-                _so.message.ListMessage.Add(errorMessage);
-                _so.message.Exception();
-                return StatusCode(500, _so.message);
-            }
-        }
     }
 }
 

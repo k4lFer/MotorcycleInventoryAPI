@@ -26,8 +26,8 @@ namespace DataAccessLayer
 
                     cfg.CreateMap<Sales, DtoSales>().MaxDepth(4)
                         //.ForMember(dest => dest.ParentUser, opt => opt.MapFrom(src => src.ParentUser))
-                        .ForMember(dest => dest.ChildDtoSalesDetails, opt => opt.MapFrom(src => src.ChildSalesDetails))
-                        .ForMember(dest => dest.ChildDtoSalesServices, opt => opt.MapFrom(src => src.ChildSalesServices));
+                        .ForMember(dest => dest.ChildDtoSalesMotorcycles, opt => opt.MapFrom(src => src.ChildSalesMotorcycles))
+                        .ForMember(dest => dest.ChildDtoMotorcycleServices, opt => opt.MapFrom(src => src.ChildMotorcycleServices));
                     cfg.CreateMap<DtoSales, Sales>().MaxDepth(4);
 
                     cfg.CreateMap<Brand, DtoBrand>().MaxDepth(3);
@@ -41,15 +41,15 @@ namespace DataAccessLayer
                     cfg.CreateMap<Service, DtoService>().MaxDepth(3);
                     cfg.CreateMap<DtoService, Service>().MaxDepth(3);
 
-                    cfg.CreateMap<SalesDetails, DtoSalesDetails>().MaxDepth(3)
+                    cfg.CreateMap<SalesMotorcycles, DtoSalesMotorcycles>().MaxDepth(3)
                        //.ForMember(dest => dest.ParentDtoSales, opt => opt.MapFrom(src => src.ParentSales))
-                        .ForMember(dest => dest.ParentDtoMotorcycle, opt => opt.MapFrom(src => src.ParentMotorcyle));
-                    cfg.CreateMap<DtoSalesDetails, SalesDetails>().MaxDepth(3);
+                        .ForMember(dest => dest.ParentDtoMotorcycle, opt => opt.MapFrom(src => src.ParentMotorcycle));
+                    cfg.CreateMap<DtoSalesMotorcycles, SalesMotorcycles>().MaxDepth(3);
 
-                    cfg.CreateMap<SalesService, DtoSalesService>().MaxDepth(3)
+                    cfg.CreateMap<MotorcycleServices, DtoMotorcycleServices>().MaxDepth(3)
                         .ForMember(dest => dest.ParentDtoService, opt => opt.MapFrom(src => src.ParentService));
                         //.ForMember(dest => dest.ParentDtoSales, opt => opt.MapFrom(src => src.ParentSales));
-                    cfg.CreateMap<DtoSalesService, SalesService>().MaxDepth(3);
+                    cfg.CreateMap<DtoMotorcycleServices, MotorcycleServices>().MaxDepth(3);
 
                 });
                 mapper = configuration.CreateMapper();

@@ -41,9 +41,9 @@ namespace DataAccessLayer.Query
             var salesH = dbc.Sales
                /* .Include(s => s.ParentUser)
                 .Include(s => s.ParentOwner)*/
-                .Include(s => s.ChildSalesDetails)
-                    .ThenInclude(sd => sd.ParentMotorcyle)
-                .Include(s => s.ChildSalesServices)
+                .Include(s => s.ChildSalesMotorcycles)
+                    .ThenInclude(sd => sd.ParentMotorcycle)
+                .Include(s => s.ChildMotorcycleServices)
                     .ThenInclude(sd => sd.ParentService)
                 .Where(s => s.userId == id)
                 .OrderByDescending(s => s.date)
@@ -55,9 +55,9 @@ namespace DataAccessLayer.Query
         {
             using DataBaseContext dbc = new();
             Sales? sale = dbc.Sales
-                .Include(s => s.ChildSalesDetails)
-                .ThenInclude(sd => sd.ParentMotorcyle)
-                .Include(s => s.ChildSalesServices)
+                .Include(s => s.ChildSalesMotorcycles)
+                .ThenInclude(sd => sd.ParentMotorcycle)
+                .Include(s => s.ChildMotorcycleServices)
                 .ThenInclude(sd => sd.ParentService)
                 .OrderByDescending(s => s.date)
                 .FirstOrDefault(s => s.id == saleId);
@@ -68,9 +68,9 @@ namespace DataAccessLayer.Query
         {
             using DataBaseContext dbc = new();
             Sales? sale = dbc.Sales
-                .Include(s => s.ChildSalesDetails)
-                .ThenInclude(sd => sd.ParentMotorcyle)
-                .Include(s => s.ChildSalesServices)
+                .Include(s => s.ChildSalesMotorcycles)
+                .ThenInclude(sd => sd.ParentMotorcycle)
+                .Include(s => s.ChildMotorcycleServices)
                 .ThenInclude(sd => sd.ParentService)
                 .OrderByDescending(s => s.date)
                 .FirstOrDefault(s => s.ownerId == ownerId);
@@ -83,8 +83,8 @@ namespace DataAccessLayer.Query
             return Automapper.mapper.Map<List<DtoSales>>(dbc.Sales
                 /*.Include(s => s.ParentUser)
                 .Include(s => s.ParentOwner)*/
-                .Include(s => s.ChildSalesDetails)
-                .Include(s => s.ChildSalesServices)
+                .Include(s => s.ChildSalesMotorcycles)
+                .Include(s => s.ChildMotorcycleServices)
                 .ToList());
         }
     }

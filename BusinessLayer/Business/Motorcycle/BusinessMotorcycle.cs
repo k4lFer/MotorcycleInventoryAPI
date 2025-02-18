@@ -1,6 +1,5 @@
 using System.Transactions;
 using BusinessLayer.Generic;
-using BusinessLayer.Signals;
 using DataTransferLayer.Object;
 using DataTransferLayer.OtherObject;
 using Microsoft.AspNetCore.SignalR;
@@ -43,7 +42,7 @@ namespace BusinessLayer.Business.Motorcycle
                 dtoMotorcycle.quantity = dto.quantity;
                 dtoMotorcycle.displacement = dto.displacement;
                 dtoMotorcycle.price = dto.price;
-                dtoMotorcycle.vin = dto.vin;
+                //dtoMotorcycle.vin = dto.vin;
                 //dtoMotorcycle.status = dto.status;
                 dtoMotorcycle.updatedAt = DateTime.UtcNow;
 
@@ -129,7 +128,7 @@ namespace BusinessLayer.Business.Motorcycle
             _message.Success();
             return (_message, dtoMotorcycle);
         }
-        public (DtoMessage, DtoMotorcycle) GetMotorcycleVin(string vin)
+       /* public (DtoMessage, DtoMotorcycle) GetMotorcycleVin(string vin)
         {
             DtoMotorcycle? dtoMotorcycle = qMotorcycle.getByVin(vin);
             dtoMotorcycle.brandId = null;
@@ -137,7 +136,7 @@ namespace BusinessLayer.Business.Motorcycle
             //CheckAndEmitAlerts(dtoMotorcycle).Wait();
             _message.Success();
             return (_message, dtoMotorcycle);
-        }
+        }*/
         
         /*private async Task CheckAndEmitAlerts(DtoMotorcycle motorcycle)
         {

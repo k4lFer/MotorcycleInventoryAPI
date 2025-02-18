@@ -40,7 +40,7 @@ namespace DataAccessLayer.Query
             return Automapper.mapper.Map<DtoMotorcycle>(motorcycle);
         }
 
-        public DtoMotorcycle getByVin(string vin)
+       /* public DtoMotorcycle getByVin(string vin)
         {
             using DataBaseContext dbc = new();
             Motorcycle? motorcycle = dbc.Motorcyles
@@ -48,7 +48,7 @@ namespace DataAccessLayer.Query
                 .Include(m => m.ParentTypes)
                 .FirstOrDefault(m => m.vin == vin);
             return Automapper.mapper.Map<DtoMotorcycle>(motorcycle);
-        }
+        }*/
         
         public async Task<DtoMotorcycle> getByIdAsync(Guid id)
         {
@@ -66,7 +66,7 @@ namespace DataAccessLayer.Query
             return Automapper.mapper.Map<List<DtoMotorcycle>>(dbc.Motorcyles
                 .Include(m => m.ParentBrands)
                 .Include(m => m.ParentTypes)
-                .OrderBy(mo => mo.createdAt).ToList());
+                .OrderBy(m => m.createdAt).ToList());
         }
         public int UpdateStatusBasedOnStock()
         {

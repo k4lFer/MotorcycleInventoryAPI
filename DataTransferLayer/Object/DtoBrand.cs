@@ -7,7 +7,7 @@ namespace DataTransferLayer.Object
         public Guid id { get; set; }
         public string name { get; set; }
        // public string description { get; set; } 
-        public string ruc { get; set; }
+        //public string ruc { get; set; }
     }
 }
 

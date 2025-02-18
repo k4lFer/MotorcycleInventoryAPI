@@ -10,5 +10,7 @@ namespace BusinessLayer.Business.Owner
         private QOwner qOwner = new();
         private QAuthentication qAuthentication = new();
         private EncryptWithAes DataEncrypt = new();
+
+        //private ResendApi resendApi = new();
     }
 }

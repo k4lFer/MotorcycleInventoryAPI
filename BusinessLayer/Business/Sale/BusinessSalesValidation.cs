@@ -8,16 +8,16 @@ namespace BusinessLayer.Business.Sale
         private void CreateSaleValidation(DtoSales dtoSales)
         {
             // Validar que al menos uno de los detalles o servicios esté presente
-            if ((dtoSales.ChildDtoSalesDetails == null || !dtoSales.ChildDtoSalesDetails.Any()) &&
-                (dtoSales.ChildDtoSalesServices == null || !dtoSales.ChildDtoSalesServices.Any()))
+            if ((dtoSales.ChildDtoSalesMotorcycles == null || !dtoSales.ChildDtoSalesMotorcycles.Any()) &&
+                (dtoSales.ChildDtoMotorcycleServices == null || !dtoSales.ChildDtoMotorcycleServices.Any()))
                 {
                     _message.AddMessage("Debe incluir al menos un detalle de venta o un servicio.");
 
                 }
 
-            if (dtoSales.ChildDtoSalesDetails != null)
+            if (dtoSales.ChildDtoSalesMotorcycles != null)
             {
-                foreach (var detail in dtoSales.ChildDtoSalesDetails)
+                foreach (var detail in dtoSales.ChildDtoSalesMotorcycles)
                 {
                     var dtoMotorcycle = qmotorcycle.getById(detail.motorcycleId);
                     if (dtoMotorcycle == null)
@@ -35,9 +35,9 @@ namespace BusinessLayer.Business.Sale
                 }
             }
 
-            if (dtoSales.ChildDtoSalesServices != null)
+            if (dtoSales.ChildDtoMotorcycleServices != null)
             {
-                foreach (var service in dtoSales.ChildDtoSalesServices)
+                foreach (var service in dtoSales.ChildDtoMotorcycleServices)
                 {
                     var dtoService = qService.getById(service.serviceId);
                     if (dtoService == null)

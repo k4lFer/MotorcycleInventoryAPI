@@ -56,7 +56,6 @@ CREATE TABLE `motorcycles` (
     `typeId` CHAR(36) NOT NULL,
     `brandId` CHAR(36) NOT NULL, 
     `name` VARCHAR(255) NOT NULL,
-    `vin` VARCHAR(255) NOT NULL,
     `displacement` VARCHAR(255) NOT NULL, 
     `price` DECIMAL(10, 2) NOT NULL,
     `quantity` INT NOT NULL,
@@ -67,11 +66,21 @@ CREATE TABLE `motorcycles` (
     FOREIGN KEY (`brandId`) REFERENCES `brands`(`id`)
 ) ENGINE=InnoDB;
 
+/*CREATE TABLE `motorcycle_instances` (
+    `id` CHAR(36) PRIMARY KEY NOT NULL,
+    `motorcycleId` CHAR(36) NOT NULL, -- Referencia al modelo
+    `vin` VARCHAR(255) UNIQUE NOT NULL, -- Número de chasis único
+    `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,   
+    FOREIGN KEY (`motorcycleId`) REFERENCES `motorcycles`(`id`)
+) ENGINE=InnoDB;
+*/
+
 CREATE TABLE `services` (
     `id` CHAR(36) PRIMARY KEY NOT NULL,
     `name` VARCHAR(255) NOT NULL,
     `description` TEXT NOT NULL,
-    `price` DECIMAL(10,2) NOT NULL,
+    `price` DECIMAL(10,2) NOT NULL, 
     `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
@@ -87,26 +96,34 @@ CREATE TABLE `sales` (
     FOREIGN KEY (`ownerId`) REFERENCES `owners`(`id`)
 ) ENGINE=InnoDB;
 
-CREATE TABLE `sales_services` (
+CREATE TABLE `motorcycle_services` (
     `id` CHAR(36) PRIMARY KEY NOT NULL,
-    `saleId` CHAR(36) NOT NULL,
-    `serviceId` CHAR(36) NOT NULL,
-    `quantity` INT DEFAULT 1 NOT NULL, 
-    `unitPrice` DECIMAL(10, 2) NOT NULL,
-    `subTotal` DECIMAL(10, 2) NOT NULL,
-    FOREIGN KEY (`saleId`) REFERENCES `sales`(`id`),
-    FOREIGN KEY (`serviceId`) REFERENCES `services`(`id`)
+    `saleId` CHAR(36) NULL,  -- Referencia a la venta de la moto (puede ser NULL si no está relacionado con una venta)
+    `motorcycleInstanceId` CHAR(36)  NULL,  -- Identificador de la moto
+    `motorcycleName` VARCHAR(255)  NULL, -- En caso solo se solicite un servicio a una moto no registrada, esto sin compra de la moto
+    `serviceId` CHAR(36) NOT NULL,  -- Referencia al servicio realizado
+    `date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,  -- Fecha del servicio
+    `price` DECIMAL(10, 2) NOT NULL,  -- Precio del servicio
+    `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (`saleId`) REFERENCES `sales`(`id`),  -- Relación con la venta
+    FOREIGN KEY (`motorcycleInstanceId`) REFERENCES `motorcycles`(`id`),  -- Relación con motocicleta
+    --FOREIGN KEY (`motorcycleInstanceId`) REFERENCES `motorcycle_instances`(`id`)
+    FOREIGN KEY (`serviceId`) REFERENCES `services`(`id`)  -- Relación con servicio
 ) ENGINE=InnoDB;
 
-CREATE TABLE `sales_details` (
+
+CREATE TABLE `sales_motorcycles` (
     `id` CHAR(36) PRIMARY KEY NOT NULL,
     `saleId` CHAR(36) NOT NULL,
     `motorcycleId` CHAR(36) NOT NULL,
+    --`motorcycleInstanceId` CHAR(36) NOT NULL,
     `quantity` INT NOT NULL,
     `unitPrice` DECIMAL(10, 2) NOT NULL,
     `subTotal` DECIMAL(10, 2) NOT NULL,
     FOREIGN KEY (`saleId`) REFERENCES `sales`(`id`),
     FOREIGN KEY (`motorcycleId`) REFERENCES `motorcycles`(`id`)
+    --FOREIGN KEY (`motorcycleInstanceId`) REFERENCES `motorcycle_instances`(`id`)
 ) ENGINE=InnoDB;
 
 INSERT INTO `owners` (`id`,`username`,`password`,`firstName`,`lastName`,`email`,`dni`,`ruc`,`address`,`phoneNumber`,`role`,`status`,`createdAt`,`updatedAt`,`createdBy`,`updatedBy`) VALUES (
@@ -152,7 +169,8 @@ VALUES
 -- Insertando datos en la tabla `motorcycles`
 INSERT INTO `motorcycles` (`id`, `typeId`, `brandId`, `name`, `displacement`, `price`, `quantity`, `status`, `createdAt`, `updatedAt`)
 VALUES
-('1a2b3c4d-0003-0000-0000-000000000001', '1a2b3c4d-0001-0000-0000-000000000001', '1a2b3c4d-0002-0000-0000-000000000001', 'YZF R1', '998 cc', 20000.00, 5, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
-('1a2b3c4d-0003-0000-0000-000000000002', '1a2b3c4d-0001-0000-0000-000000000002', '1a2b3c4d-0002-0000-0000-000000000002', 'Ninja ZX-6R', '636 cc', 17000.00, 3, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
-('1a2b3c4d-0003-0000-0000-000000000003', '1a2b3c4d-0001-0000-0000-000000000003', '1a2b3c4d-0002-0000-0000-000000000003', 'CBR600RR', '599 cc', 15000.00, 4, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('1a2b3c4d-0003-0000-0000-000000000001', '1a2b3c4d-0001-0000-0000-000000000001', '1a2b3c4d-0002-0000-0000-000000000001','YZF R1', '998 cc', 20000.00, 5, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('1a2b3c4d-0003-0000-0000-000000000002', '1a2b3c4d-0001-0000-0000-000000000002', '1a2b3c4d-0002-0000-0000-000000000002','Ninja ZX-6R', '636 cc', 17000.00, 3, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('1a2b3c4d-0003-0000-0000-000000000003', '1a2b3c4d-0001-0000-0000-000000000003', '1a2b3c4d-0002-0000-0000-000000000003','CBR600RR', '599 cc', 15000.00, 4, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
 ('1a2b3c4d-0003-0000-0000-000000000004', '1a2b3c4d-0001-0000-0000-000000000004', '1a2b3c4d-0002-0000-0000-000000000004', 'V-Strom 650', '645 cc', 12000.00, 6, 'available', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+select * from user

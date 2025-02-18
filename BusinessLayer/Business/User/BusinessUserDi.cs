@@ -7,9 +7,17 @@ namespace BusinessLayer.Business.User
 {
     public partial class BusinessUser
     {
+
         private QUser qUser = new();
         private QOwner qOwner = new();
         private QAuthentication qAuthentication = new();
         private EncryptWithAes DataEncrypt = new();
+        
+        private readonly ApisNetPe apisNetPe;
+
+        public BusinessUser(IHttpClientFactory httpClientFactory)
+        {
+            apisNetPe = new ApisNetPe(httpClientFactory);
+        }
     }
 }

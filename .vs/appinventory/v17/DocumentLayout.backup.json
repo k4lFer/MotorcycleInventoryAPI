@@ -1,7 +1,100 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Respaldo\\Escritorio\\Semestre 2024-2\\Computacion en la Nube\\Proyecto\\appinventory\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\dataaccesslayer\\query\\qsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\query\\qsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\dataaccesslayer\\query\\qmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\query\\qmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\controller\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\controller\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\controller\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\controller\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\controller\\typescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\controller\\typescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\controller\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\controller\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\controller\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\controller\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\controller\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\controller\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\controller\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\controller\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\controller\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\controller\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\generic\\controllergeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\generic\\controllergeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\businesslayer\\generic\\businessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\generic\\businessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\businesslayer\\business\\user\\businessuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\business\\user\\businessuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\businesslayer\\business\\user\\businessuserdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\business\\user\\businessuserdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\businesslayer\\business\\sale\\businesssalesvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\business\\sale\\businesssalesvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\businesslayer\\business\\sale\\businesssalesdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\business\\sale\\businesssalesdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\businesslayer\\business\\sale\\businesssales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\business\\sale\\businesssales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\businesslayer\\business\\motorcycle\\businessmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C140DDAD-10D8-4BF3-83ED-606DF405DE92}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\business\\motorcycle\\businessmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\dataaccesslayer\\query\\qsalesmotorcycles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\query\\qsalesmotorcycles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5CFD875-57FD-46B2-A706-82CD69546457}|Service\\Service.csproj|solutionrelative:service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|d:\\respaldo\\escritorio\\.net\\back inventory motorcycles\\appinventory\\dataaccesslayer\\connection\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51764B25-A9CD-450A-B5DD-AB91887B1CB6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\connection\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +102,314 @@
       "DocumentGroups": [
         {
           "DockedWidth": 46,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QMotorcycle.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\Query\\QMotorcycle.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Query\\QMotorcycle.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\Query\\QMotorcycle.cs",
+              "RelativeToolTip": "DataAccessLayer\\Query\\QMotorcycle.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwEQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:59:34.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TypesController.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\TypesController.cs",
+              "RelativeDocumentMoniker": "Service\\Controller\\TypesController.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\TypesController.cs",
+              "RelativeToolTip": "Service\\Controller\\TypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:58:45.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\ServicesController.cs",
+              "RelativeDocumentMoniker": "Service\\Controller\\ServicesController.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\ServicesController.cs",
+              "RelativeToolTip": "Service\\Controller\\ServicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:58:34.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\SalesController.cs",
+              "RelativeDocumentMoniker": "Service\\Controller\\SalesController.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\SalesController.cs",
+              "RelativeToolTip": "Service\\Controller\\SalesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:58:33.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MotorcycleController.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\MotorcycleController.cs",
+              "RelativeDocumentMoniker": "Service\\Controller\\MotorcycleController.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\MotorcycleController.cs",
+              "RelativeToolTip": "Service\\Controller\\MotorcycleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:49:52.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "Service\\Controller\\DashBoardController.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\DashBoardController.cs",
+              "RelativeToolTip": "Service\\Controller\\DashBoardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:58:23.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\BrandController.cs",
+              "RelativeDocumentMoniker": "Service\\Controller\\BrandController.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\BrandController.cs",
+              "RelativeToolTip": "Service\\Controller\\BrandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:58:17.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ControllerGeneric.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Generic\\ControllerGeneric.cs",
+              "RelativeDocumentMoniker": "Service\\Generic\\ControllerGeneric.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Generic\\ControllerGeneric.cs",
+              "RelativeToolTip": "Service\\Generic\\ControllerGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:48:22.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BusinessFactory.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Generic\\BusinessFactory.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Generic\\BusinessFactory.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Generic\\BusinessFactory.cs",
+              "RelativeToolTip": "BusinessLayer\\Generic\\BusinessFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:28:14.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Service\\Controller\\AuthenticationController.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\AuthenticationController.cs",
+              "RelativeToolTip": "Service\\Controller\\AuthenticationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:23:37.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BusinessUserDi.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\User\\BusinessUserDi.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Business\\User\\BusinessUserDi.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\User\\BusinessUserDi.cs",
+              "RelativeToolTip": "BusinessLayer\\Business\\User\\BusinessUserDi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:23:22.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BusinessUser.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\User\\BusinessUser.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Business\\User\\BusinessUser.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\User\\BusinessUser.cs",
+              "RelativeToolTip": "BusinessLayer\\Business\\User\\BusinessUser.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAIwNUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:22:48.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Program.cs",
+              "RelativeDocumentMoniker": "Service\\Program.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Program.cs",
+              "RelativeToolTip": "Service\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:13:58.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OwnerController.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\OwnerController.cs",
+              "RelativeDocumentMoniker": "Service\\Controller\\OwnerController.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\OwnerController.cs",
+              "RelativeToolTip": "Service\\Controller\\OwnerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:13:40.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BusinessSalesValidation.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\Sale\\BusinessSalesValidation.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Business\\Sale\\BusinessSalesValidation.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\Sale\\BusinessSalesValidation.cs",
+              "RelativeToolTip": "BusinessLayer\\Business\\Sale\\BusinessSalesValidation.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:12:38.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "Service\\Controller\\UserController.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\Controller\\UserController.cs",
+              "RelativeToolTip": "Service\\Controller\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:12:30.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BusinessSalesDi.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\Sale\\BusinessSalesDi.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Business\\Sale\\BusinessSalesDi.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\Sale\\BusinessSalesDi.cs",
+              "RelativeToolTip": "BusinessLayer\\Business\\Sale\\BusinessSalesDi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:12:27.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BusinessSales.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\Sale\\BusinessSales.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Business\\Sale\\BusinessSales.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\Sale\\BusinessSales.cs",
+              "RelativeToolTip": "BusinessLayer\\Business\\Sale\\BusinessSales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:12:24.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BusinessMotorcycle.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\Motorcycle\\BusinessMotorcycle.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Business\\Motorcycle\\BusinessMotorcycle.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\Business\\Motorcycle\\BusinessMotorcycle.cs",
+              "RelativeToolTip": "BusinessLayer\\Business\\Motorcycle\\BusinessMotorcycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:12:16.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QSalesMotorcycles.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\Query\\QSalesMotorcycles.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Query\\QSalesMotorcycles.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\Query\\QSalesMotorcycles.cs",
+              "RelativeToolTip": "DataAccessLayer\\Query\\QSalesMotorcycles.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:12:08.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QSales.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\Query\\QSales.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Query\\QSales.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\Query\\QSales.cs",
+              "RelativeToolTip": "DataAccessLayer\\Query\\QSales.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:10:34.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\appsettings.json",
+              "RelativeDocumentMoniker": "Service\\appsettings.json",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\Service\\appsettings.json",
+              "RelativeToolTip": "Service\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-18T22:10:19.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\Connection\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Connection\\DataBaseContext.cs",
+              "ToolTip": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\Connection\\DataBaseContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Connection\\DataBaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:10:16.056Z",
+              "EditorCaption": ""
             }
           ]
         }

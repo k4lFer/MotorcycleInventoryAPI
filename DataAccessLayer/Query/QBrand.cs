@@ -31,11 +31,6 @@ namespace DataAccessLayer.Query
             Brand? brand = dbc.Brands.FirstOrDefault(b => b.id == id);
             return Automapper.mapper.Map<DtoBrand>(brand);
         }
-        public DtoBrand getByRuc(string ruc)
-        {
-            using DataBaseContext dbc = new();
-            Brand? brand = dbc.Brands.FirstOrDefault(b =>b.ruc == ruc);
-            return Automapper.mapper.Map<DtoBrand>(brand);
-        }
+        
     }
 }

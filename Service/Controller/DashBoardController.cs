@@ -8,6 +8,10 @@ namespace Service.Controller
 {
     public class DashBoardController : ControllerGeneric<BusinessDashboard, SoDashboard> 
     {
+        public DashBoardController(IServiceProvider serviceProvider) : base(serviceProvider)
+        {
+        }
+
         [Authorize(Roles = "Admin, Manager")]
         [HttpGet]
         [Route("[action]")]

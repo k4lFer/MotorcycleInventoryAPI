@@ -69,9 +69,14 @@ namespace DataAccessLayer.Connection
                     .HasForeignKey(e => e.typeId)
                     .IsRequired();
                 
-                entity.HasMany(e => e.ChildSalesDetails)
-                    .WithOne(e => e.ParentMotorcyle)
+                entity.HasMany(e => e.ChildSalesMotorcycles)
+                    .WithOne(e => e.ParentMotorcycle)
                     .HasForeignKey(e => e.motorcycleId)
+                    .IsRequired();
+
+                entity.HasMany(e => e.ChildMotorcycleServices)
+                    .WithOne(e => e.ParentMotorcycle)
+                    .HasForeignKey(e => e.motorcycleInstanceId)
                     .IsRequired();
             });
 
@@ -86,11 +91,11 @@ namespace DataAccessLayer.Connection
                     .WithMany(e => e.ChildSales)
                     .HasForeignKey(e => e.userId)
                     .IsRequired();
-                entity.HasMany(e => e.ChildSalesDetails)
+                entity.HasMany(e => e.ChildSalesMotorcycles)
                     .WithOne(e => e.ParentSales)
                     .HasForeignKey(e => e.saleId)
                     .IsRequired();
-                entity.HasMany(e => e.ChildSalesServices)
+                entity.HasMany(e => e.ChildMotorcycleServices)
                     .WithOne(e => e.ParentSales)
                     .HasForeignKey(e => e.saleId)
                     .IsRequired();
@@ -100,37 +105,43 @@ namespace DataAccessLayer.Connection
             modelBuilder.Entity<Service>(entity =>
             {
                 entity.HasKey(e => e.id);
-                entity.HasMany(e => e.ChildSalesServices)
+                entity.HasMany(e => e.ChildMotorcycleServices)
                     .WithOne(e => e.ParentService)
                     .HasForeignKey(e => e.serviceId)
                     .IsRequired();
             });
 
-            modelBuilder.Entity<SalesService>(entity =>
+            modelBuilder.Entity<MotorcycleServices>(entity =>
             {
                 entity.HasKey(e => e.id);
                 entity.HasOne(e => e.ParentSales)
-                    .WithMany(e => e.ChildSalesServices)
+                    .WithMany(e => e.ChildMotorcycleServices)
                     .HasForeignKey(e => e.saleId)
                     .IsRequired()
                     .OnDelete(DeleteBehavior.Cascade);
                 entity.HasOne(e => e.ParentService)
-                    .WithMany(e => e.ChildSalesServices)
+                    .WithMany(e => e.ChildMotorcycleServices)
                     .HasForeignKey(e => e.serviceId)
                     .IsRequired()
                     .OnDelete(DeleteBehavior.Cascade);
+                entity.HasOne(e => e.ParentMotorcycle)
+                    .WithMany(e => e.ChildMotorcycleServices)
+                    .HasForeignKey(e => e.motorcycleInstanceId)
+                    .IsRequired()
+                    .OnDelete(DeleteBehavior.Cascade);
+
             });
 
-            modelBuilder.Entity<SalesDetails>(entity =>
+            modelBuilder.Entity<SalesMotorcycles>(entity =>
             {
                 entity.HasKey(e => e.id);
                 entity.HasOne(e => e.ParentSales)
-                    .WithMany(e => e.ChildSalesDetails)
+                    .WithMany(e => e.ChildSalesMotorcycles)
                     .HasForeignKey(e => e.saleId)
                     .IsRequired()
                     .OnDelete(DeleteBehavior.Cascade);
-                entity.HasOne(e => e.ParentMotorcyle)
-                    .WithMany(e => e.ChildSalesDetails)
+                entity.HasOne(e => e.ParentMotorcycle)
+                    .WithMany(e => e.ChildSalesMotorcycles)
                     .HasForeignKey(e => e.motorcycleId)
                     .IsRequired()
                     .OnDelete(DeleteBehavior.Cascade);

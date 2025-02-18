@@ -10,6 +10,10 @@ namespace Service.Controller
 {
     public class SalesController : ControllerGeneric<BusinessSales, SoSales>
     {
+        public SalesController(IServiceProvider serviceProvider) : base(serviceProvider)
+        {
+        }
+
         [AllowAnonymous]
         [HttpPost]
         [Route("[action]")]

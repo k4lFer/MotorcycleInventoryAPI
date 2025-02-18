@@ -11,14 +11,9 @@ namespace DataTransferLayer.Object
         public decimal totalPrice { get; set; }
         public DateTime date { get; set; }
 
-        /*#region Parent
-        public DtoOwner ParentOwner { get; set; }
-        public DtoUser ParentUser { get; set; }
-        #endregion*/
-
         #region Childs
-        public ICollection<DtoSalesDetails> ChildDtoSalesDetails { get; set; }  = new List<DtoSalesDetails>();
-        public ICollection<DtoSalesService> ChildDtoSalesServices { get; set; } = new List<DtoSalesService>(); 
+        public ICollection<DtoSalesMotorcycles> ChildDtoSalesMotorcycles { get; set; }  = new List<DtoSalesMotorcycles>();
+        public ICollection<DtoMotorcycleServices> ChildDtoMotorcycleServices { get; set; } = new List<DtoMotorcycleServices>(); 
         #endregion
     }
 }

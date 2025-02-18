@@ -1,30 +1,44 @@
-    using Microsoft.AspNetCore.Authentication.JwtBearer;
-    using System.Text.Json.Serialization;
-    using Swashbuckle.AspNetCore.Filters;
-    using Microsoft.IdentityModel.Tokens;
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.OpenApi.Models;
-    using Service.Helper;
-    using System.Text;
-    using CloudinaryDotNet;
-    using DataTransferLayer.OtherObject;
-    using BusinessLayer.ExternalApi;
-    using BusinessLayer.Signals;
-    using Microsoft.Extensions.Options;
-    using Resend;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Text.Json.Serialization;
+using Swashbuckle.AspNetCore.Filters;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.OpenApi.Models;
+using Service.Helper;
+using System.Text;
+using CloudinaryDotNet;
+using DataTransferLayer.OtherObject;
+using BusinessLayer.ExternalApi;
+using Microsoft.Extensions.Options;
+using Resend;
+using BusinessLayer.Business.User;
+using Service.Generic;
+using BusinessLayer.Business.Brands;
+using BusinessLayer.Business.Services;
+using BusinessLayer.Business.Sale;
+using BusinessLayer.Business.Motorcycle;
 
-    namespace Service
+namespace Service
     {
         public class Program
         {
             public static void Main(string[] args)
             {
-                //WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+                WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+                builder.Services.AddScoped<BusinessUser>();
+                builder.Services.AddScoped<BusinessFactory>();
+                builder.Services.AddScoped<BusinessBrand>();
+                builder.Services.AddScoped<BusinessServices>();
+                builder.Services.AddScoped<BusinessSales>();
+                builder.Services.AddScoped<BusinessMotorcycle>();
+                
+                /*
                 WebApplicationBuilder builder = WebApplication.CreateBuilder(new WebApplicationOptions
                 {
                     EnvironmentName = Environments.Production
                 });
-
+                */
+                
                 #region appsettings
                 AppSettings.Init();
                 #endregion
@@ -103,7 +117,7 @@
                         },
                         License = new OpenApiLicense
                         {
-                            Name = "Licencse",
+                            Name = "License",
                             Url = new Uri("https://github.com/k4lFer")
                         }
                     });
@@ -125,29 +139,28 @@
                 CloudinaryService.Initialize(cloudinary);
                 #endregion
 
+               /* 
                 #region Resend
                 builder.Services.AddOptions();
                 builder.Services.Configure<ResendClientOptions>(options =>
                 {
-                    options.ApiToken = builder.Configuration["Resend:ApiKey"];
+                    options.ApiToken = builder.Configuration["Resend:Password"];
                 });
                 builder.Services.AddHttpClient<ResendClient>();
                 #endregion
-
+                */
                 builder.Services.AddHttpClient();
                 
                 #region ApisNetPe
                 builder.Services.AddScoped<ApisNetPe>();
                 #endregion
                 
-                //builder.Services.AddSignalR();
-                
                 WebApplication app = builder.Build();
-                //app.MapHub<StockAlertHub>("/stockAlertHub");
-                #region Inicializar ResendAPI
+                
+               /* #region Inicializar ResendAPI
                 var resendClient = app.Services.GetRequiredService<ResendClient>();
                 ResendApi.Initialize(resendClient);
-                #endregion
+                #endregion*/
                 
                 app.UseSwagger(options => { options.SerializeAsV2 = true; });
                 app.UseSwaggerUI(options => { options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1"); });

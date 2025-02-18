@@ -14,8 +14,8 @@ namespace DataAccessLayer.Connection
             modelBuilder.Entity<Motorcycle>().ToTable("motorcycles");
             modelBuilder.Entity<Service>().ToTable("services");
             modelBuilder.Entity<Sales>().ToTable("sales");
-            modelBuilder.Entity<SalesService>().ToTable("sales_services");
-            modelBuilder.Entity<SalesDetails>().ToTable("sales_details");
+            modelBuilder.Entity<MotorcycleServices>().ToTable("motorcycle_services");
+            modelBuilder.Entity<SalesMotorcycles>().ToTable("sales_motorcycles");
 
             ConfigureEntityRelationships(modelBuilder);
         }
@@ -27,7 +27,7 @@ namespace DataAccessLayer.Connection
         public DbSet<Motorcycle> Motorcyles { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Sales> Sales { get; set; }
-        public DbSet<SalesService> SalesServices { get; set; }
-        public DbSet<SalesDetails> SalesDetails { get; set; }
+        public DbSet<MotorcycleServices> SalesServices { get; set; }
+        public DbSet<SalesMotorcycles> SalesDetails { get; set; }
     }
 }

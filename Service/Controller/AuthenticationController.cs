@@ -11,6 +11,10 @@ namespace Service.Controller
 {
     public class AuthenticationController : ControllerGeneric<BusinessAuthentication, SoAuthentication>
     {
+        public AuthenticationController(IServiceProvider serviceProvider) : base(serviceProvider)
+        {
+        }
+
         [AllowAnonymous]
         [HttpPost]
         [Route("[action]")]

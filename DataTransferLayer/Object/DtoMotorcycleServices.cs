@@ -1,9 +1,11 @@
 namespace DataTransferLayer.Object
 {
-    public class DtoSalesService
+    public class DtoMotorcycleServices
     {
         public Guid? id { get; set; }
         public Guid? saleId { get; set; }
+        public Guid? motorcycleInstanceId { get; set; }
+        public string? motorcycleName { get; set; }
         public Guid serviceId { get; set; }
         public int quantity { get; set; }
         public decimal unitPrice { get; set; }
@@ -13,6 +15,7 @@ namespace DataTransferLayer.Object
 
         public DtoService? ParentDtoService { get; set; }       
         public DtoSales ParentDtoSales { get; set; } 
+        public DtoMotorcycle? ParentDtoMotocycle { get; set; }
         #endregion
     }
 }

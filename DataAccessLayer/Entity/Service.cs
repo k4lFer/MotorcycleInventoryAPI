@@ -13,7 +13,7 @@ namespace DataAccessLayer.Entity
         public decimal price { get; set; }
 
         #region Childs
-        public ICollection<SalesService> ChildSalesServices { get; set; } = new List<SalesService>();
+        public ICollection<MotorcycleServices> ChildMotorcycleServices { get; set; } = new List<MotorcycleServices>();
         #endregion
     }
 }

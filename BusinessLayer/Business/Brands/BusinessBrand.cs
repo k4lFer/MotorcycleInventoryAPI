@@ -50,7 +50,7 @@ namespace BusinessLayer.Business.Brands
             if (dtoBrand != null)
             {
                 dtoBrand.name = dto.name;
-                dtoBrand.ruc = dto.ruc;
+                //dtoBrand.ruc = dto.ruc;
                 //dtoBrand.description = dto.description;
                 dtoBrand.updatedAt = DateTime.UtcNow;
                 qbrand.update(dtoBrand);

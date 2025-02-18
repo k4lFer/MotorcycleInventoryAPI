@@ -1,10 +1,14 @@
+using System.Net.Mime;
 using System.Transactions;
 using BusinessLayer.ExternalApi;
 using BusinessLayer.Generic;
 using DataAccessLayer.Query;
 using DataTransferLayer.Object;
+using DataTransferLayer.Object.ResponseAPIsNet;
 using DataTransferLayer.OtherObject;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace BusinessLayer.Business.User
 {
@@ -181,7 +185,7 @@ namespace BusinessLayer.Business.User
             return (_message, listUser);
         }
 
-        public (DtoMessage, List<string>) GetAllByDocumentNumber(string documentNumber)
+        public(DtoMessage, List<string>) GetAllByDocumentNumber(string documentNumber)
         {
             List<string> listDocuments = qUser.getAllByDocumentNumber(documentNumber);
             if (listDocuments.Count > 0)
@@ -193,6 +197,51 @@ namespace BusinessLayer.Business.User
             _message.Warning();
             return (_message, listDocuments);
             
+        }
+        public async Task<(DtoMessage, ResponseDni)> CheckDniAsync(string dni)
+        {
+            var dtoMessage = new DtoMessage();
+
+            // Validar el DNI
+            if (string.IsNullOrEmpty(dni))
+            {
+                dtoMessage.AddMessage("El número de DNI no puede estar vacío.");
+                dtoMessage.Error();
+                return (dtoMessage, null);
+            }
+
+            // Llamar a la API
+            var (success, responseBody, errorMessage) = await apisNetPe.CheckDniAsync(dni);
+
+            if (!success)
+            {
+                dtoMessage.AddMessage(errorMessage);
+                dtoMessage.Error();
+                return (dtoMessage, null);
+            }
+
+            try
+            {
+                // Deserializar la respuesta JSON en un objeto ResponseDni
+                var responseDni = JsonConvert.DeserializeObject<ResponseDni>(responseBody);
+
+                if (responseDni == null)
+                {
+                    dtoMessage.AddMessage("No se pudo procesar la respuesta del servidor.");
+                    dtoMessage.Error();
+                    return (dtoMessage, null);
+                }
+
+                dtoMessage.AddMessage("Consulta de DNI realizada correctamente.");
+                dtoMessage.Success();
+                return (dtoMessage, responseDni);
+            }
+            catch (JsonException ex)
+            {
+                dtoMessage.AddMessage($"Error al procesar la respuesta del servidor: {ex.Message}");
+                dtoMessage.Error();
+                return (dtoMessage, null);
+            }
         }
         
     }

@@ -8,30 +8,28 @@ namespace Service.Generic
     [Authorize]
     [ApiController]
     [Route("api/v1/[controller]")]
-    public class ControllerGeneric<Bu, So> : ControllerBase 
-        where So : new() 
-        where Bu : new()
+    public class ControllerGeneric<Bu, So> : ControllerBase
+        where So : new()
+        where Bu : class
     {
         protected Bu _business;
         public So _so;
 
-        
-        public ControllerGeneric()
+        public ControllerGeneric(IServiceProvider serviceProvider)
         {
-            _business = (Bu)Activator.CreateInstance(typeof(Bu), Array.Empty<object>());
-            _so = (So)Activator.CreateInstance(typeof(So), Array.Empty<object>());
-        }
-        
-        /*public ControllerGeneric()
-        {
-            _business = new Bu();
+            // Resolver BusinessFactory usando IServiceProvider
+            var businessFactory = serviceProvider.GetRequiredService<BusinessFactory>();
+
+            // Inicializar _business y _so
+            _business = businessFactory.CreateBusiness<Bu>();
             _so = new So();
-        }*/
+        }
+
         protected DtoMessage ValidatePartDto(object dto, List<string> listField)
         {
             DtoMessage dtoMessage = new DtoMessage();
             List<string> errors = new List<string>();
-    
+
             ModelState.Clear();
             TryValidateModel(dto);
 
@@ -48,7 +46,6 @@ namespace Service.Generic
                         if (customErrorMessage.Contains("required"))
                         {
                             customErrorMessage = "El campo es obligatorio.";
-                            //customErrorMessage = $"El campo '{fieldName}' es obligatorio.";
                         }
 
                         if (!string.IsNullOrWhiteSpace(customErrorMessage))
@@ -58,7 +55,7 @@ namespace Service.Generic
                     }
                 }
             }
-            
+
             if (errors.Count > 0)
             {
                 dtoMessage.ListMessage = errors;

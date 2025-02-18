@@ -9,6 +9,10 @@ namespace Service.Controller
 {
     public class TypesController : ControllerGeneric<BusinessTypes, SoTypes>
     {
+        public TypesController(IServiceProvider serviceProvider) : base(serviceProvider)
+        {
+        }
+
         [AllowAnonymous]
         [HttpPost]
         [Route("[action]")]

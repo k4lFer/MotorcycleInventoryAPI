@@ -1,6 +1,6 @@
 namespace DataTransferLayer.Object
 {
-    public class DtoSalesDetails
+    public class DtoSalesMotorcycles
     {
         public Guid? id { get; set; }
         public Guid? saleId { get; set; }

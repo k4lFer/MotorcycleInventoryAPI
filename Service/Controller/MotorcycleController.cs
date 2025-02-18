@@ -9,6 +9,10 @@ namespace Service.Controller
 {
     public class MotorcycleController : ControllerGeneric<BusinessMotorcycle, SoMotorcycle>
     {
+        public MotorcycleController(IServiceProvider serviceProvider) : base(serviceProvider)
+        {
+        }
+
         [AllowAnonymous]
         [HttpPost]
         [Route("[action]")]
@@ -113,14 +117,14 @@ namespace Service.Controller
             return _so;
         }
 
-        [AllowAnonymous]
+        /*[AllowAnonymous]
         [HttpGet]
         [Route("[action]")]
         public ActionResult<SoMotorcycle> GetMotorcyclesByVin(string vin)
         {
             (_so.message, _so.body.dto) = _business.GetMotorcycleVin(vin);
             return _so;
-        }
+        }*/
     }
 }
 
