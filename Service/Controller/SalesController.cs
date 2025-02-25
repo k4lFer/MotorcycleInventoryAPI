@@ -8,11 +8,8 @@ using Service.ServiceObject;
 
 namespace Service.Controller
 {
-    public class SalesController : ControllerGeneric<BusinessSales, SoSales>
+    public class SalesController(BusinessSales businessSales) : ControllerGeneric<BusinessSales, SoSales>(businessSales)
     {
-        public SalesController(IServiceProvider serviceProvider) : base(serviceProvider)
-        {
-        }
 
         [AllowAnonymous]
         [HttpPost]

@@ -12,16 +12,12 @@ namespace Service.Generic
         where So : new()
         where Bu : class
     {
-        protected Bu _business;
+        protected readonly Bu _business;
         public So _so;
 
-        public ControllerGeneric(IServiceProvider serviceProvider)
+        public ControllerGeneric(Bu business)
         {
-            // Resolver BusinessFactory usando IServiceProvider
-            var businessFactory = serviceProvider.GetRequiredService<BusinessFactory>();
-
-            // Inicializar _business y _so
-            _business = businessFactory.CreateBusiness<Bu>();
+            _business = business;
             _so = new So();
         }
 

@@ -7,7 +7,6 @@ namespace BusinessLayer.Business.User
 {
     public partial class BusinessUser
     {
-
         private QUser qUser = new();
         private QOwner qOwner = new();
         private QAuthentication qAuthentication = new();

@@ -17,6 +17,7 @@ using BusinessLayer.Business.Brands;
 using BusinessLayer.Business.Services;
 using BusinessLayer.Business.Sale;
 using BusinessLayer.Business.Motorcycle;
+using BusinessLayer.Business.Types;
 
 namespace Service
     {
@@ -26,8 +27,8 @@ namespace Service
             {
                 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
                 builder.Services.AddScoped<BusinessUser>();
-                builder.Services.AddScoped<BusinessFactory>();
                 builder.Services.AddScoped<BusinessBrand>();
+                builder.Services.AddScoped<BusinessTypes>();
                 builder.Services.AddScoped<BusinessServices>();
                 builder.Services.AddScoped<BusinessSales>();
                 builder.Services.AddScoped<BusinessMotorcycle>();

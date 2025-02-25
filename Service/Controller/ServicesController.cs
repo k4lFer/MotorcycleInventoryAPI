@@ -7,11 +7,8 @@ using Service.ServiceObject;
 
 namespace Service.Controller
 {
-    public class ServicesController : ControllerGeneric<BusinessServices, SoServices>
+    public class ServicesController(BusinessServices businessServices) : ControllerGeneric<BusinessServices, SoServices>(businessServices)
     {
-        public ServicesController(IServiceProvider serviceProvider) : base(serviceProvider)
-        {
-        }
 
         [AllowAnonymous]
         [HttpPost]

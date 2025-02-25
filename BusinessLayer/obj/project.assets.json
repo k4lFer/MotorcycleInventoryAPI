@@ -4364,11 +4364,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "D:\\Respaldo\\Escritorio\\NET-APIS\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "D:\\Respaldo\\Escritorio\\NET-APIS\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\kalfe\\.nuget\\packages\\",
-      "outputPath": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\obj\\",
+      "outputPath": "D:\\Respaldo\\Escritorio\\NET-APIS\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4389,11 +4389,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\Respaldo\\Escritorio\\NET-APIS\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\Respaldo\\Escritorio\\NET-APIS\\Back Inventory Motorcycles\\appinventory\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj": {
-              "projectPath": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj"
+            "D:\\Respaldo\\Escritorio\\NET-APIS\\Back Inventory Motorcycles\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj": {
+              "projectPath": "D:\\Respaldo\\Escritorio\\NET-APIS\\Back Inventory Motorcycles\\appinventory\\DataTransferLayer\\DataTransferLayer.csproj"
             }
           }
         }

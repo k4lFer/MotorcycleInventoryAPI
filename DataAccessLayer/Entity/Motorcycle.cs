@@ -26,6 +26,7 @@ namespace DataAccessLayer.Entity
         #region Childs
         public ICollection<SalesMotorcycles> ChildSalesMotorcycles { get; set; } = new List<SalesMotorcycles>();
         public ICollection<MotorcycleServices>? ChildMotorcycleServices { get; set; } = new List<MotorcycleServices>();
+        public ICollection<MotorcycleUnits>? ChildMotorcycleUnits { get; set; } = new List<MotorcycleUnits>(); 
         #endregion
     }
 }

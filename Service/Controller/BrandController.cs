@@ -8,11 +8,8 @@ using Service.ServiceObject;
 
 namespace Service.Controller
 {
-    public class BrandController : ControllerGeneric<BusinessBrand, SoBrand>
+    public class BrandController(BusinessBrand businessBrand) : ControllerGeneric<BusinessBrand, SoBrand>(businessBrand)
     {
-        public BrandController(IServiceProvider serviceProvider) : base(serviceProvider)
-        {
-        }
 
         //[Authorize(Roles = "Admin, Manager")]
 

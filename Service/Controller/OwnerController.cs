@@ -11,11 +11,8 @@ using Service.ServiceObject;
 
 namespace Service.Controller
 {
-    public class OwnerController : ControllerGeneric<BusinessOwner, SoOwner>
+    public class OwnerController(BusinessOwner businessOwner) : ControllerGeneric<BusinessOwner, SoOwner>(businessOwner)
     {
-        public OwnerController(IServiceProvider serviceProvider) : base(serviceProvider)
-        {
-        }
 
         [Authorize(Roles="Manager,Admin")]
         [HttpPost]

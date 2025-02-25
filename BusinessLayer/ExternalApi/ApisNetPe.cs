@@ -5,7 +5,6 @@ namespace BusinessLayer.ExternalApi
 {
     public class ApisNetPe
     {
-        public ApisNetPe() { }
         private readonly IHttpClientFactory _httpClientFactory;
 
         public ApisNetPe(IHttpClientFactory httpClientFactory)
@@ -13,13 +12,8 @@ namespace BusinessLayer.ExternalApi
             _httpClientFactory = httpClientFactory;
         }
 
- public async Task<(bool Success, string ResponseBody, string ErrorMessage)> CheckDniAsync(string dni)
+        public async Task<(bool Success, string ResponseBody, string ErrorMessage)> CheckDniAsync(string dni)
         {
-            if (string.IsNullOrEmpty(dni))
-            {
-                return (false, null, "El número de DNI no puede estar vacío.");
-            }
-
             string token = "apis-token-12155.EN9nPNJ7jkSweBbr8Bv0C7cVyBzienRm";
             string url = $"https://api.apis.net.pe/v2/reniec/dni?numero={dni}";
 
@@ -52,34 +46,50 @@ namespace BusinessLayer.ExternalApi
                     }
                 }
             }
-            catch (HttpRequestException ex)
-            {
-                return (false, null, $"Error de conexión: {ex.Message}");
-            }
             catch (Exception ex)
             {
                 return (false, null, $"Error inesperado: {ex.Message}");
             }
         }
         
-        public async Task<string> CheckRucAsync(string ruc)
+        public async Task<(bool success, string responseBody, string errorMessage)> CheckRucAsync(string ruc)
         {
             string token = "apis-token-12155.EN9nPNJ7jkSweBbr8Bv0C7cVyBzienRm";
             string url = $"https://api.apis.net.pe/v2/sunat/ruc?numero={ruc}";
-                
-            var client = _httpClientFactory.CreateClient();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            client.DefaultRequestHeaders.Add("Referer", "http://apis.net.pe/api-ruc");
 
-            HttpResponseMessage response = await client.GetAsync(url);
-                
-            if (!response.IsSuccessStatusCode)
+            try
             {
-                return null;
+                var client = _httpClientFactory.CreateClient();
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                client.DefaultRequestHeaders.Add("Referer", "http://apis.net.pe/api-ruc");
+
+                HttpResponseMessage response = await client.GetAsync(url);
+
+                if(response.IsSuccessStatusCode){
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    return (true, responseBody, null);
+                }
+                else
+                {
+                    string errorResponse = await response.Content.ReadAsStringAsync();
+                    switch (response.StatusCode)
+                    {
+                        case HttpStatusCode.UnprocessableEntity: // 422
+                            return (false, null, "El formato del RUC es inválido. La longitud debe ser igual a 11 y solo debe contener números.");
+
+                        case HttpStatusCode.NotFound: // 404
+                            return (false, null, "El número de RUC que buscas no existe.");
+
+                        default:
+                            return (false, null, $"Error en la consulta del RUC: {response.StatusCode}");
+                    }    
+                }
             }
-                
-            string responseBody = await response.Content.ReadAsStringAsync();
-            return responseBody;
+            catch (Exception ex)
+            {
+                return (false, null, $"Error inesperado: {ex.Message}");
+            }
+
         }
     }
 }

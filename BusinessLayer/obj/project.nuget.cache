@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "++3W/O3XFZE=",
+  "dgSpecHash": "k4iewb1g2+4=",
   "success": true,
-  "projectFilePath": "D:\\Respaldo\\Escritorio\\.NET\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "D:\\Respaldo\\Escritorio\\NET-APIS\\Back Inventory Motorcycles\\appinventory\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kalfe\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\kalfe\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

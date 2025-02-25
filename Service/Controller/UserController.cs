@@ -11,12 +11,8 @@ using Service.ServiceObject;
 
 namespace Service.Controller
 {
-    public class UserController : ControllerGeneric<BusinessUser, SoUser>
+    public class UserController(BusinessUser businessUser) : ControllerGeneric<BusinessUser, SoUser>(businessUser)
     {
-        public UserController(IServiceProvider serviceProvider) : base(serviceProvider)
-        {
-        }
-
         [Authorize(Roles = "Admin, Manager")]
         [HttpPost]
         [Route("[action]")]
@@ -113,38 +109,6 @@ namespace Service.Controller
             return StatusCode(500, new { Message = "Ocurrió un error inesperado." });
         }
 
-        
-        /*
-        [Authorize(Roles = "Admin, Manager")]
-        [HttpDelete]
-        [Route("[action]")]
-        public ActionResult<DtoMessage> Delete([FromBody] PasswordRequest so, Guid id)
-        {
-            try
-            {
-                string accessToken = Request.Headers["Authorization"].ToString();
-                Guid userId = Guid.Parse(TokenUtil.GetUserIdFromAccessToken(accessToken));
-                Guid ownerId = Guid.Parse(TokenUtil.GetUserIdFromAccessToken(accessToken));
-                _so.message = ValidatePartDto(so, new List<string>
-                {
-                    nameof(so.password)
-                });
-                if (_so.message.ExistsMessage()) return BadRequest(_so.message);
-
-                _so.message = _business.DeleteUser(so, id, ownerId);
-                if (_so.message.type == "success") return StatusCode(200, _so.message);
-            }
-            catch (Exception ex)
-            {
-                string errorMessage = ex.Message;
-                if (ex.InnerException != null) errorMessage += " -> " + ex.InnerException.Message;
-                _so.message.ListMessage.Add(errorMessage);
-                _so.message.Exception();
-                return StatusCode(500, _so.message);
-            }
-            return BadRequest(_so.message);
-        }
-        */
        // [Authorize(Roles="Manager,Admin")]
         [AllowAnonymous]
         [HttpGet]

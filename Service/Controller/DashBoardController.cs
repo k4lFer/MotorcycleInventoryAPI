@@ -6,12 +6,9 @@ using Service.ServiceObject;
 
 namespace Service.Controller
 {
-    public class DashBoardController : ControllerGeneric<BusinessDashboard, SoDashboard> 
+    public class DashBoardController(BusinessDashboard businessDashboard) : ControllerGeneric<BusinessDashboard, SoDashboard>(businessDashboard)
     {
-        public DashBoardController(IServiceProvider serviceProvider) : base(serviceProvider)
-        {
-        }
-
+    
         [Authorize(Roles = "Admin, Manager")]
         [HttpGet]
         [Route("[action]")]

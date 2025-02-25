@@ -64,3 +64,23 @@ Este esquema de base de datos está diseñado para gestionar tanto la venta de m
 1. Se registran los repuestos en `service_parts`.
 2. Se asocian los repuestos a los servicios en `service_part_mappings`.
 3. Al realizar un servicio, se verifica el inventario de repuestos y se actualiza la cantidad en `service_parts`.
+
+## Ejemplo de Consultas
+
+1. **Obtener todas las unidades disponibles de un modelo**:
+   SELECT u.id, u.vin, u.purchaseDate
+   FROM `motorcycle_units` u
+   WHERE u.motorcycleId = 'ID_DEL_MODELO' AND u.status = 'available';
+
+2. **Obtener el historial de servicios de un cliente:**:
+    SELECT s.name, sh.date, sh.notes
+    FROM `service_history` sh
+    JOIN `services` s ON sh.serviceId = s.id
+    WHERE sh.userId = 'ID_DEL_CLIENTE';
+
+3. **Obtener todas las ventas de servicios**:
+    SELECT ss.id, s.date, u.firstName, u.lastName, sv.name, ss.quantity, ss.subTotal
+    FROM `sales_services` ss
+    JOIN `sales` s ON ss.saleId = s.id
+    JOIN `users` u ON s.userId = u.id
+    JOIN `services` sv ON ss.serviceId = sv.id;

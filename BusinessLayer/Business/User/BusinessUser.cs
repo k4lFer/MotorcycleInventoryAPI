@@ -202,15 +202,6 @@ namespace BusinessLayer.Business.User
         {
             var dtoMessage = new DtoMessage();
 
-            // Validar el DNI
-            if (string.IsNullOrEmpty(dni))
-            {
-                dtoMessage.AddMessage("El número de DNI no puede estar vacío.");
-                dtoMessage.Error();
-                return (dtoMessage, null);
-            }
-
-            // Llamar a la API
             var (success, responseBody, errorMessage) = await apisNetPe.CheckDniAsync(dni);
 
             if (!success)
@@ -222,7 +213,6 @@ namespace BusinessLayer.Business.User
 
             try
             {
-                // Deserializar la respuesta JSON en un objeto ResponseDni
                 var responseDni = JsonConvert.DeserializeObject<ResponseDni>(responseBody);
 
                 if (responseDni == null)
